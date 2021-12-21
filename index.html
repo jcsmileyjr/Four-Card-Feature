@@ -72,6 +72,7 @@
 
     .card__supervisor--style {
       border-top: .35em solid var(--Primary-Cyan);
+      align-self: center;
     }
 
     .card__team--style {
@@ -84,8 +85,40 @@
 
     .card__calculator--style{
       border-top: .35em solid var(--Primary-Blue);
+      align-self: center;
     }
 
+    @media only screen and (min-width: 600px) {
+      main {
+        display: flex;
+      }
+
+      body {
+        margin: 0 10vw;
+      }
+
+      .card {
+        width: 90%;
+      }
+
+      .content__column--style {
+        display: flex;
+      }
+
+      .content__secondColumn--style {
+        margin: 0 15px;
+      }
+
+      .content__column {
+        width: 100%;
+      }
+
+      header {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+      }
+    }
 
   </style>
 </head>
@@ -96,7 +129,7 @@
   to ensure that your project is successful</p>
   </header>
   <main>
-    <div class="content__firstColumn--style">
+    <div class="content__column--style content__column">
       <div class="card card__supervisor--style">
         <h2>Supervisor</h2>
         <p class="content--style">Monitors activity to identify project roadblocks</p>
@@ -105,7 +138,7 @@
         </div>
       </div>
     </div>
-    <div class="content__secondColumn--style">
+    <div class="content__secondColumn--style content__column">
       <div class="card card__team--style">
         <h2>Team Builder</h2>
         <p class="content--style">Scans our talent network to create the optimal team for your project</p>
@@ -121,7 +154,7 @@
         </div>
       </div>
     </div>
-    <div class="content__thirdColumn--style">
+    <div class="content__column--style content__column">
       <div class="card card__calculator--style">
         <h2>Calculator</h2>
         <p class="content--style">Uses data from past projects to provide better delivery estimates</p>
