@@ -24,35 +24,126 @@
     body {
       font-family: 'Poppins', sans-serif;
       font-size: 15px;
+      margin: 0 25px;
+      background-color: var(--Neutral-Very-Light-Gray);
     }
+
+    h1 {
+      color: var(--Neutral-Grayish-Blue);
+      font-size: x-large;
+      font-weight: 200;
+    }
+
+    .header__AlternativeTitle--style {
+      display: block;
+      color: var(--Neutral-Very-Dark-Blue);
+      font-weight: 600;
+    }
+
+    .content--style {
+      color: var(--Neutral-Grayish-Blue);
+      font-weight: 200;
+    }
+
+    .card {
+      border: .1em solid lightgray;
+      background-color: white;
+      box-shadow: 3px 3px 14px 7px rgba(207 198 198 / 30%);
+      -webkit-box-shadow: 3px 3px 14px 7px rgb(207 198 198 / 30%);
+      -moz-box-shadow: 3px 3px 14px 7px rgba(207 198 198 / 30%);
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+
+    .image__container--style {
+      display: flex;
+      justify-content: end;
+    }
+
+    .image--style {
+      max-height: 40px;
+      margin-right: 40px;
+    }
+
+    h2 {
+      margin: 0;
+    }
+
+    .card__supervisor--style {
+      border-top: .35em solid var(--Primary-Cyan);
+    }
+
+    .card__team--style {
+      border-top: .35em solid var(--Primary-Red);
+    }
+
+    .card__karma--style {
+      border-top: .35em solid var(--Primary-Orange);
+    }
+
+    .card__calculator--style{
+      border-top: .35em solid var(--Primary-Blue);
+    }
+
+
   </style>
 </head>
 <body>
+  <header>
+    <h1>Reliable, efficient delivery <span class="header__AlternativeTitle--style">Powered by Technology</span></h1>
+    <p class="content--style">Our Artificial Intelligence powered tools use millions of project data points 
+  to ensure that your project is successful</p>
+  </header>
+  <main>
+    <div class="content__firstColumn--style">
+      <div class="card card__supervisor--style">
+        <h2>Supervisor</h2>
+        <p class="content--style">Monitors activity to identify project roadblocks</p>
+        <div class="image__container--style">
+          <img src="images/icon-supervisor.svg" class="image--style" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="content__secondColumn--style">
+      <div class="card card__team--style">
+        <h2>Team Builder</h2>
+        <p class="content--style">Scans our talent network to create the optimal team for your project</p>
+        <div class="image__container--style">
+          <img src="images/icon-team-builder.svg" class="image--style" alt="" />
+        </div>
+      </div>
+      <div class="card card__karma--style">
+        <h2>Karma</h2>
+        <p class="content--style">Regularly evaluates our talent to ensure quality</p>
+        <div class="image__container--style">
+          <img src="images/icon-karma.svg" class="image--style" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="content__thirdColumn--style">
+      <div class="card card__calculator--style">
+        <h2>Calculator</h2>
+        <p class="content--style">Uses data from past projects to provide better delivery estimates</p>
+        <div class="image__container--style">
+          <img src="images/icon-calculator.svg" class="image--style" alt="" />
+        </div>
+      </div>
+    </div>
+  </main>
   
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
 
   
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
 </body>
 </html>
