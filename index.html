@@ -81,11 +81,23 @@
 
     .card__karma--style {
       border-top: .35em solid var(--Primary-Orange);
+      min-width: 93%;
     }
 
     .card__calculator--style{
       border-top: .35em solid var(--Primary-Blue);
       align-self: center;
+    }
+
+    .content__secondColumn--style {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
     }
 
     @media only screen and (min-width: 600px) {
@@ -99,6 +111,7 @@
 
       .card {
         width: 90%;
+        /* padding: 25px; */
       }
 
       .content__column--style {
@@ -117,6 +130,11 @@
         width: 60%;
         margin: auto;
         text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .card__karma--style {
+        min-width: auto;
       }
     }
 
@@ -164,19 +182,5 @@
       </div>
     </div>
   </main>
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
 </body>
 </html>
