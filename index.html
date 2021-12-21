@@ -105,13 +105,12 @@
         display: flex;
       }
 
-      body {
-        margin: 0 10vw;
+      .card {
+        max-width: 300px;
       }
 
-      .card {
-        width: 90%;
-        /* padding: 25px; */
+      .right {
+        justify-content: right;
       }
 
       .content__column--style {
@@ -136,7 +135,7 @@
       .card__karma--style {
         min-width: auto;
       }
-    }
+    }  
 
   </style>
 </head>
@@ -147,7 +146,7 @@
   to ensure that your project is successful</p>
   </header>
   <main>
-    <div class="content__column--style content__column">
+    <div class="content__column--style content__column right">
       <div class="card card__supervisor--style">
         <h2>Supervisor</h2>
         <p class="content--style">Monitors activity to identify project roadblocks</p>
