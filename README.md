@@ -1,4 +1,4 @@
-# Base Apparel Preview component with HTML & CSS
+# Four Card Feature with HTML & CSS
 
 ![Final Outcome](./images/phase-6-desktop.PNG)
 
