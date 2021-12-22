@@ -11,7 +11,7 @@ This is a solution to the [Four card Feature section challenge on Frontend Mento
 ### Links
 
 - [Click to play with the Live site](https://jcsmileyjr.github.io/Four-Card-Feature/)
-- [Coming soon](https://dev.to/jcsmileyjr/frontend-challenge-9-base-apparel-component-3g68)
+- [Click to read the blog post](https://dev.to/jcsmileyjr/frontend-challenge-10-four-card-feature-4cj6)
 
 ### Built with
 
